@@ -1,0 +1,21 @@
+#Ai Assistant (Made by Taimur khan)
+
+assistant = "Charlie"
+name = input(f"Hey there I am you assistant {assistant}! Whats your name?: ")
+help = input(f"hello {name} You want something help from me?(Yes or No): ")
+if help == "Yes": #if statement depends on users input
+    info = input("ok on Which topic you want information frome me?: ")
+    print(f"{info} World War I (WWI) was a huge war that mainly took place in Europe from 1914 to 1918.")
+    print("Why did it start?")
+    print("The main causes were:")
+    print("Militarism  countries built large armies and weapons.")
+    print("Alliances  countries formed military partnerships.")
+    print("Imperialism  competition for colonies and power.")
+    print("Nationalism  strong national rivalries.")
+    print("The immediate trigger was the assassination of Archduke Franz Ferdinand of Austria-Hungary on 28 June 1914.")
+
+elif help == "No":
+    print(f"No problem {name} I am Always here for you!")
+
+else:
+    print("Type some keywords you freaking humans")
