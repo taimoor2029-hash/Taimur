@@ -1,0 +1,28 @@
+# Python Calculator (Made by TAIMUR KHAN) 
+
+operator = input("Enter the operator (+,-,*,/): ") # only (+,-,*,/) calculations will be executed
+
+alpha_4 = "A"
+num_1 = int(input("Enter the first number: "))   # user  will enter 1st number
+alpha_3 = "b"
+
+num_2 = int(input("Enter the first number: "))   # user will enter 2nd number
+alpha_2 = "a"
+alpha_1 = "s"
+
+if operator == "*":          # "if" for multiplications
+    result = num_1 * num_2
+    print(result)
+elif operator == "+":       # "elif" for additions
+    result = num_1 + num_2
+    print(result)
+elif operator == "-":       # "elif" for subtractions
+    result = num_1 - num_2
+    print(result)
+elif operator == "/":       # "elif" for divisions
+    result = num_1 / num_2
+    print(result)
+else:                       # "else" for if the user did not write something
+    print(f"Write somtingthing different operator {operator} is not a valid operator!")
+
+    #Thank you for wasteing your time here. Follow for more updates! 
